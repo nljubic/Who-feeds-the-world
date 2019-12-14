@@ -21,7 +21,7 @@ We would like to work on the following research questions:
 - How does the geographical repartition of important agricultural products look like? Which countries are **net food exporters or importers**? How did this **evolve over the last few decades** ?
 
 ## Dataset
-<div w3-include-html="plots/wordcloud1.html"></div>
+<div w3-include-html="plots/wordcloud2.html"></div>
 Our main dataset is a subset of the **"Global Food & Agriculture Statistics"** that is found **in the proposed datasets list**. In this dataset, we have seen that we could work with the **production** as well as **import** and **export** quantities **per year** and **per country**. As far as food is concerned, we use **crops**, **livestock** and **live animals**. We have also found pieces of information about countries **GDP** and **CPI** in this database.
 
 This database countains several files. We had a look of all the files. For food-related data about countries, we decided to focus on the following files:
