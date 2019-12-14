@@ -83,7 +83,7 @@ function includeHTML() {
 };
 </script>
 
-<div w3-include-html="content.html"></div> 
+<div w3-include-html="map1.html"></div> 
 
 <script>
 includeHTML();
