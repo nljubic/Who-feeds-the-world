@@ -1,7 +1,15 @@
-## Introduction
+## Preface <a name="preface"></a>
+
+## Sources <a name="sources"></a>
+
+## Results <a name="results"></a>
+
+## Conclusion <a name="conclusion"></a>
 
 <div w3-include-html="plots/map2.html"></div>
+
 ### Abstract
+
 Are countries that plant more maize richer than countries planting rice? Is it true that developed countries produce more meat? Are you better off being a food net exporter or importer? Are food prices more stable if you produce more food locally or trade more?
 
 In this project we analyze **the effects that a country agricultural sector has on its different economic indicators**. The indicators of the agricultural sector we used are crops and livestock **production, exports and imports** of **crops, livestock and live animals**. For these, we use the data from the "**Global Food & Agriculture Statistics**" datasets. We quantify the **economic success** by **Gross Domestic Product (GDP)**, but also by **price stability**, as defined by low changes in **Consumer Price Indices (CPI)**. We further use the **Food and Agriculture Organization (FAO)** definition of **food self-sufficiency** to analyze its link to economic success and stability. 
