@@ -30,6 +30,15 @@
         }
       }
     };
+    
+    function topNavFunc() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
   </script>
   
   <head>
@@ -46,6 +55,16 @@
       <h1 class="project-name">Who feeds the world? And how wealthy are they?</h1>
       <h2 class="project-tagline">A visual analysis of the effects that a country agricultural sector has on its different economic indicators</h2>
     </header>
+    
+    <div class="topnav" id="myTopnav">
+      <a href="#preface" class="active">Preface</a>
+      <a href="#sources">Sources</a>
+      <a href="#results">Results</a>
+      <a href="#conclusion">Conclusion</a>
+      <a href="javascript:void(0);" class="icon" onclick="topNavFunc()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
