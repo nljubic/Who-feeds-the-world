@@ -52,4 +52,4 @@ Our objectives for the following weeks are:
 8. Visualise the repartition of the production of "strong" products as well as their trading flow (who buys, who sells).
 9. Share our results in the form of a data story.
 
-<div w3-include-html="map1.html"></div> 
+<div w3-include-html="plots/map1.html"></div> 
