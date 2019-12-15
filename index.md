@@ -1,14 +1,14 @@
 ## Introduction <a name="preface"></a>
 
 <br />
-<div style="float: right; max-width: 45%;" w3-include-html="plots/wordcloud2.html"></div>
+<div style="float: right; width: 50%;" w3-include-html="plots/wordcloud2.html"></div>
 
 ### What are the insights of this data story?
 
 Since the Neolithic Revolution, agriculture **feeds the world's population**. Even today, the agricultural sector **employs a large part of humanity** and is a **major point of the economy** of developed and developing countries. In the history of mankind, the **economic growth of countries** has almost always been accompanied by the development of agriculture and the **agricultural economy**, *i.e.* **production, imports and exports**.
 
 <br />
-<div style="float: left; max-width: 45%;" w3-include-html="plots/ussrdiss.html"></div>
+<div style="float: left; width: 50%;" w3-include-html="plots/ussrdiss.html"></div>
 
 ### Which important events had a significant influence on the agriculture and the economy for the historical period from 1970 to 2015?
 
