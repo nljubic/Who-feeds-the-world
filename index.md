@@ -82,7 +82,52 @@
 
 ## Agricultural and economical features <a name="sources"></a>
 
+### What are the most important features in the sense of the most influence on the Gross Domestic Product ? 
+
+	In order to discover those features we proceed with different features selection methods: 
+- Knowledge based: 
+We have at out disposal three different kind of features: production, import export. E.g. : The import of maize in tonnes (for all countries,  every year). The export of avocado (for all countries, every year). 
+Firstly we only look at the production features. From those we only select a subset. They are selected according to the amount they contribute to the total of the world production. We select the top 20 features, ie the 20 features that contribute the most to the total amount  of produced goods in the world. 
+Secondly, we select in the import and export type features the corresponding features to the production type. We end up with 60 features in total, 20 production type, 20 import type and 20 export type. 
+
+We proceed after to an other selection method. We are interested in features that are correlated to the GDP in order to have an interpretable model. 
+- Filter method:
+
+We decide to only keep features that are sufficiently correlated to the GDP. We choose a decide a threshold to reduce to approximately 10 features.
+
+- Embedded method:
+
+We fit a LASSO model. It does, while fitting, a feature selection by putting relevant weights to the kept features and a zero weight to the rejected features.  
+
+We find that the  goods that most influences the GDP are soybean, tomatoes, Maize, Wheat , Cattle live animals and pigs amongst other. 
+
+It is an interesting result that is easily understandable. Take soybean for example. This crop is one of the most produced. The mains exporter are the US, Brasil and Argentina and the main importer is China. Around 330 millions tonnes of soybean was produced in 2018. It is vastly used to feed animals. It is thus coherent to see such an important good be selected by our model. We see also that wheat, oats, cattle live and pigs are present. This again is easily understandable. It is sufficient to look at our eating habit to convince ourself that those goods plays an important role in the GDP. Below is the full list of the selected features,. 
+
+	- Soybeans Crops Production tonnes
+	- Tomatoes Crops Production tonnes
+	- Maize Crops Production tonnes
+	- Turkeys Livestock production Head
+	- 'Maize Food export quantities tonnes
+	- Maize, green Food export quantities tonnes
+	- Wheat Food export quantities tonnes
+	- Cattle Live animals import quantities Head
+	- Oats Food import quantities tonnes
+	- Pigs Live animals import quantities Head
+	- Tomatoes Food import quantities tonnes
+	- Turkeys Live animals import quantities Head
+
 ## Improve economy with agriculture <a name="results"></a>
+
+### What is green maize?
+
+It’s maize that is mainly harvested so it can be either directly fed to animals or conserved through “silage” and fed to them in winter. Maize is native to central America and thanks to genetic selection & hybridization it can now be grown everywhere in the world. Among the forage foods that are grown for animal feed, they’re very high energy and easy maintenance, since they only need to be harvested once. They also require high fertilizer, herbicide and pesticide levels and 
+
+### Which countries are net exporters of green maize??
+We see that in 1980 no country in the world was a strong net exporter of green maize. Starting from the mid 80s.
+
+### Which countries are net importers of tomatoes?
+
+### Which countries import oats?
 
 ## Conclusion <a name="conclusion"></a>
 
