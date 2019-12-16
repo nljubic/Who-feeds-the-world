@@ -1,4 +1,4 @@
-## Introduction <a name="preface"></a>
+## Introduction <a name="preface"></a> 
 
 ### What are the insights of this data story?
 
