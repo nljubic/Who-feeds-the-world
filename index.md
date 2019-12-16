@@ -24,7 +24,7 @@
 
 ### Which countries have highest GDP? How did GDP evolved during the last decades?
 
-<div style="float: right; width: 45%; margin: 5% 5% 5% 5%;"> 
+<div style="float: right; width: 100%; margin: 5% 5% 5% 5%;"> 
   <div class="slidecontainer">
     <input type="range" min="1970" max="2015" value="2000" class="slider" id="myRange">
     <span id="map"></span>
@@ -86,7 +86,7 @@
 
 ### What is the structure of international trade ?
 
-<div style="float: left; width: 45%; margin: 5% 5% 5% 5%;" w3-include-html="plots/clusters.html"></div>
+<div style="float: left; width: 100%; margin: 5% 5% 5% 5%;" w3-include-html="plots/clusters.html"></div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The GDP are **highly correlated** from one country to another. Globally, they **almost all increased the same way**. This can be explain by the fact that countries have **strong enough trading relations** to make the GDP evolve the same way. Furthermore, one can identify **main regions** in which the trading relations are more important.
 
@@ -136,7 +136,8 @@ I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; t is an interesting result that is easily 
 
 ### What is green maize?
 
-It’s maize that is mainly harvested so it can be either directly fed to animals or conserved through “silage” and fed to them in winter. Maize is native to central America and thanks to genetic selection & hybridization it can now be grown everywhere in the world. Among the forage foods that are grown for animal feed, they’re very high energy and easy maintenance, since they only need to be harvested once. They also require high fertilizer, herbicide and pesticide levels and 
+The feature that our model puts out as the highest weighed for predicting GDP is **green maize**. What is it? It’s maize that is mainly harvested so it can be either directly **fed to animals** or conserved through “silage” and fed to them in winter. Maize is native to **central America** and thanks to genetic selection and hybridization it can now be grown **everywhere in the world**. Among the forage foods that are grown for animal feed, they’re very **high energy and easy maintenance**, since they only need to be harvested once. They also require high fertilizer, herbicide and pesticide levels. Especially with the commercial adoption of genetically modified maize that is herbicide and pest resistant during the 90s, it has emerged as a very important animal feed.
+
 
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
