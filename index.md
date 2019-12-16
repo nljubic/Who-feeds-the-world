@@ -151,6 +151,10 @@ MAPS GREEN MAIZE
 
 ### Which countries are net importers of tomatoes?
 
+MAPS TOMATOES
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Being a tomato importer also seems to be a **good predictor of wealth for the state**. Tomatoes are one of the most **important vegetable crops produced worldwide**, only potatoes have a higher production. Looking through the timeline, we clearly see that almost all **highly industrialized nations are continuously importing tomatoes**. Especially the United States, France and Germany are importing large quantities each year. It's not a big surprise, since tomatoes are a **popular ingredient in many modern western recipes**, but **require a climate** that is not well suited for most of the United States or Northern Europe.
+
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### Which countries import oats?
