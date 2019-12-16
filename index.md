@@ -88,7 +88,7 @@
 
 <div style="float: left; width: 100%; margin: 5% 0% 5% 0%;" w3-include-html="plots/clusters.html"></div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The GDP are **highly correlated** from one country to another. Globally, they **almost all increased the same way**. This can be explain by the fact that countries have **strong enough trading relations** to make the GDP evolve the same way. Furthermore, one can identify **main regions** in which the trading relations are more important.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GDP is **highly correlated** from one country to another. Globally, they **almost all increased the same way**. This can be explained by the fact that the **global economy is highly interlinked** and countries have **strong enough trading relations** to make the GDP evolve the same way. Furthermore, one can identify **main regions** in which the trading relations are more important. Possibly the most obvious observation from this network graph is the clear distinction between **former Eastern Bloc** countries and the rest of the world. About half of the years of our dataset are during the **East-West divide** where there were **two clear global trade blocks**.
 
 <div style="clear: left; width: 100%;"></div>
 
@@ -99,9 +99,11 @@
 ### Which features are the most influential features on the Gross Domestic Product ? 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We use **knowledge** based method and more **technical**,  data analysis algorithm, to select the feature. However we expect to see the most traded goods as the most influential ones. We find that the goods that most influences the GDP are **soybean, tomatoes, maize, wheat, cattle live animals and pigs** amongst other. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We use **knowledge** based method and more **technical**,  data analysis algorithm, to select the feature. However we expect to see the most traded goods as the most influential ones.
 
-It is an interesting result that is easily understandable. Take **soybean** for example. This crop is one of the **most produced**. The mains exporter are the US, Brasil and Argentina and the main importer is China. Around **330 millions tonnes** of soybean was produced in 2018. It is vastly used to **feed animals**. It is thus coherent to see such an important good be selected by our model. We see also that wheat, oats, cattle live and pigs are present. This again is easily understandable. It is sufficient to look at our **eating habit** to convince ourself that those goods plays an important role in the GDP. Below is the full list of the selected features:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We find that the goods that most influences the GDP are **soybean, tomatoes, maize, wheat, cattle live animals and pigs** amongst other. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is an interesting result that is easily understandable. Take **soybean** for example. This crop is one of the **most produced**. The mains exporter are the US, Brasil and Argentina and the main importer is China. Around **330 millions tonnes** of soybean was produced in 2018. It is vastly used to **feed animals**. It is thus coherent to see such an important good be selected by our model. We see also that wheat, oats, cattle live and pigs are present. This again is easily understandable. It is sufficient to look at our **eating habit** to convince ourself that those goods plays an important role in the GDP. Below is the full list of the selected features:
 
 - Soybeans Crops Production tonnes
 - Tomatoes Crops Production tonnes
@@ -122,6 +124,8 @@ It is an interesting result that is easily understandable. Take **soybean** for 
 
 ### What is green maize?
 
+SLIDESHOW GREEN MAIZE
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The feature that our model puts out as the highest weighed for predicting GDP is **green maize**. What is it? It’s maize that is mainly harvested so it can be either directly **fed to animals** or conserved through “silage” and fed to them in winter. Maize is native to **central America** and thanks to genetic selection and hybridization it can now be grown **everywhere in the world**. Among the forage foods that are grown for animal feed, they’re very **high energy and easy maintenance**, since they only need to be harvested once. They also require high fertilizer, herbicide and pesticide levels. Especially with the commercial adoption of genetically modified maize that is herbicide and pest resistant during the 90s, it has emerged as a very important animal feed.
 
 
@@ -139,17 +143,15 @@ MAPS GREEN MAIZE
 
 MAPS TOMATOES
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Being a tomato importer also seems to be a **good predictor of wealth for the state**. Tomatoes are one of the most **important vegetable crops produced worldwide**, only potatoes have a higher production. Looking through the timeline, we clearly see that almost all **highly industrialized nations are continuously importing tomatoes**. Especially the United States, France and Germany are importing large quantities each year. It's not a big surprise, since tomatoes are a **popular ingredient in many modern western recipes**, but **require a climate** that is not well suited for most of the United States or Northern Europe.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Being a tomato importer also seems to be a **good predictor of wealth for the state**. Tomatoes are one of the most **important vegetable crops produced worldwide**, only potatoes have a higher production. Looking through the timeline, we clearly see that almost all **highly industrialized nations are continuously importing tomatoes**. Especially the United States, France and Germany are importing large quantities each year. It's not a big surprise, since tomatoes are a **popular ingredient in many modern western recipes**, but **require a climate** that is not well suited for most of the United States or Northern Europe.
 
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
-### Which countries import oats?
+### Which countries produce the features of interest?
 
-<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+MAPs PRODUCTION
 
-### Production analysis
-
-Globally, all features that we identified seem to follow a common trend. The biggest producers are in almost all categories China, the USA and brazil. Russia, France, Spain, Germany seem to get closer to their volumes. The rest of Europe is situated in the second or third tier of producer as well as the other developed countries (Australia, Canada, south American countries). In the majority of categories, north and south African countries are situated in the some orders of magnitude as developed countries. A general trend to observe is that central African countries seem to produce very few resources in comparison to the rest of the world. The only feature going against this general description seems to be the cattle. The production of cattle appears to be very well distributed throughout the world. The production of pigs also seem well distributed throughout the world except for countries excluding pork from their diet for religious purposes. The phenomenon might be explained by the increased difficulty in transporting these goods. Live animals and meat transport is much more complicated than grain, vegetables or forage. Meaning that the countries would generally produce what they need in term of meat and rather import crops or vegetables.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Globally, all features that we identified seem to follow a common trend. The biggest producers are in almost all categories China, the USA and brazil. Russia, France, Spain, Germany seem to get closer to their volumes. The rest of Europe is situated in the second or third tier of producer as well as the other developed countries (Australia, Canada, south American countries). In the majority of categories, north and south African countries are situated in the some orders of magnitude as developed countries. A general trend to observe is that central African countries seem to produce very few resources in comparison to the rest of the world. The only feature going against this general description seems to be the cattle. The production of cattle appears to be very well distributed throughout the world. The production of pigs also seem well distributed throughout the world except for countries excluding pork from their diet for religious purposes. The phenomenon might be explained by the increased difficulty in transporting these goods. Live animals and meat transport is much more complicated than grain, vegetables or forage. Meaning that the countries would generally produce what they need in term of meat and rather import crops or vegetables.  
 
 The general trend we observe is that developed countries are bigger producers. This makes sense considering how we selected these features. Our regression model gives us the features that are connected with a high GDP thus the features selected will be markers of rich countries.
 
