@@ -136,13 +136,16 @@ I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; t is an interesting result that is easily 
 
 ### What is green maize?
 
-The feature that our model puts out as the highest weighed for predicting GDP is **green maize**. What is it? It’s maize that is mainly harvested so it can be either directly **fed to animals** or conserved through “silage” and fed to them in winter. Maize is native to **central America** and thanks to genetic selection and hybridization it can now be grown **everywhere in the world**. Among the forage foods that are grown for animal feed, they’re very **high energy and easy maintenance**, since they only need to be harvested once. They also require high fertilizer, herbicide and pesticide levels. Especially with the commercial adoption of genetically modified maize that is herbicide and pest resistant during the 90s, it has emerged as a very important animal feed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The feature that our model puts out as the highest weighed for predicting GDP is **green maize**. What is it? It’s maize that is mainly harvested so it can be either directly **fed to animals** or conserved through “silage” and fed to them in winter. Maize is native to **central America** and thanks to genetic selection and hybridization it can now be grown **everywhere in the world**. Among the forage foods that are grown for animal feed, they’re very **high energy and easy maintenance**, since they only need to be harvested once. They also require high fertilizer, herbicide and pesticide levels. Especially with the commercial adoption of genetically modified maize that is herbicide and pest resistant during the 90s, it has emerged as a very important animal feed.
 
 
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### Which countries are net exporters of green maize??
-We see that in 1980 no country in the world was a strong net exporter of green maize. Starting from the mid 80s.
+
+MAPS GREEN MAIZE
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  We see that in 1980 no country in the world was a strong net exporter of green maize. Starting from the mid 80s the **United States** emerge as the main net exporter. During the 90s and into recent years, some more countries emerge that are net exporters, mainly in Europe. Globally, the United States stays the most important exporter of this agricultural product throughout the years, which is probably why our model identified it as a **strong predictor of GDP**.
 
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
