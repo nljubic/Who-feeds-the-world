@@ -171,10 +171,13 @@ MAPS TOMATOES
 
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
-### Self sufficiency score
+### How is the self-suffiency score distributed for the selected features?
 
-Unlike the production ranking, the self sufficiency score seems to be pretty instable. It is interesting to note that the countries who were by far top producers do no stand out early on. For instance China does not appear in the highest score until 1990. The most surprising results come from African countries such as South Africa, the United Republic of Tanzania, Nigeria and the Ivory Coast that constantly have a score competing with the richest countries which was unexpected. (**See import/export and production**). Even though the general trend tends to show that richer countries are more independent, there are outliers and the score seems to have a pretty high variance
--> Comparison with GDP??
+Unlike the production ranking, the self sufficiency score seems to be **pretty instable**. It is interesting to note that the countries which were by far **top producers do no stand out early on**. For instance China does not appear in the highest score until 1990. The most surprising results came from **African countries** such as South Africa, the United Republic of Tanzania, Nigeria and the Ivory Coast that constantly have a **score competing with the richest countries** which was unexpected. (***See import/export and production***). Even though the general trend tends to show that **richer countries are more independent**, there are **outliers** and the score seems to have a pretty **high variance**.
+
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
+### -> Comparison with GDP??
 
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
