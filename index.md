@@ -96,26 +96,12 @@
 
 <div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
-### What are the most important features in the sense of the most influence on the Gross Domestic Product ? 
+### Which features are the most influential features on the Gross Domestic Product ? 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to discover those features we proceed with different features selection methods: 
-- Knowledge based: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We have at out disposal three different kind of features: production, import export. E.g. : The import of maize in tonnes (for all countries,  every year). The export of avocado (for all countries, every year). 
-Firstly we only look at the production features. From those we only select a subset. They are selected according to the amount they contribute to the total of the world production. We select the top 20 features, ie the 20 features that contribute the most to the total amount  of produced goods in the world. 
-Secondly, we select in the import and export type features the corresponding features to the production type. We end up with 60 features in total, 20 production type, 20 import type and 20 export type. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We proceed after to an other selection method. We are interested in features that are correlated to the GDP in order to have an interpretable model. 
-- Filter method:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We use **knowledge** based method and more **technical**,  data analysis algorithm, to select the feature. However we expect to see the most traded goods as the most influential ones. We find that the goods that most influences the GDP are **soybean, tomatoes, maize, wheat, cattle live animals and pigs** amongst other. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We decide to only keep features that are sufficiently correlated to the GDP. We choose a decide a threshold to reduce to approximately 10 features.
-
-- Embedded method:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We fit a LASSO model. It does, while fitting, a feature selection by putting relevant weights to the kept features and a zero weight to the rejected features.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We find that the  goods that most influences the GDP are soybean, tomatoes, Maize, Wheat , Cattle live animals and pigs amongst other. 
-
-I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; t is an interesting result that is easily understandable. Take soybean for example. This crop is one of the most produced. The mains exporter are the US, Brasil and Argentina and the main importer is China. Around 330 millions tonnes of soybean was produced in 2018. It is vastly used to feed animals. It is thus coherent to see such an important good be selected by our model. We see also that wheat, oats, cattle live and pigs are present. This again is easily understandable. It is sufficient to look at our eating habit to convince ourself that those goods plays an important role in the GDP. Below is the full list of the selected features,. 
+It is an interesting result that is easily understandable. Take **soybean** for example. This crop is one of the **most produced**. The mains exporter are the US, Brasil and Argentina and the main importer is China. Around **330 millions tonnes** of soybean was produced in 2018. It is vastly used to **feed animals**. It is thus coherent to see such an important good be selected by our model. We see also that wheat, oats, cattle live and pigs are present. This again is easily understandable. It is sufficient to look at our **eating habit** to convince ourself that those goods plays an important role in the GDP. Below is the full list of the selected features:
 
 - Soybeans Crops Production tonnes
 - Tomatoes Crops Production tonnes
