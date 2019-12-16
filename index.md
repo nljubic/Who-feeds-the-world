@@ -7,6 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since the Neolithic Revolution, agriculture **feeds the world's population**. Even today, the agricultural sector **employs a large part of humanity** and is a **major point of the economy** of developed and developing countries. In the history of mankind, the **economic growth of countries** has almost always been accompanied by the development of agriculture and the **agricultural economy**, *i.e.* **production, imports and exports**.
 
 <div style="clear: right; width: 100%;"></div>
+<img src="plots/tractor.png" alt="-" class="center"> 
 
 ### Which important events had a significant influence on the agriculture and the economy for the historical period from 1970 to 2015?
 
