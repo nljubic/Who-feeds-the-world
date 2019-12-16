@@ -18,7 +18,20 @@ There was the **Cold war** from 1945 to 1990 with two **economic superpowers** (
 
 ### Which countries have highest GDP? How did GDP evolved during the last decades?
 
-<div style="float: right; width: 45%; margin: 5% 5% 5% 5%;" w3-include-html="plots/GDPmaps.html"></div>
+<div style="float: right; width: 45%; margin: 5% 5% 5% 5%;"> <div class="slidecontainer">
+  <input type="range" min="1970" max="2015" value="2000" class="slider" id="myRange">
+  <span id="map"></span>
+</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("map");
+output.innerHTML = '<object style="width: 100%; height: 400px;" type="text/html" data="plot/'+slider.value.toString()+'GDP.html" ></object>';
+
+slider.oninput = function() {
+  output.innerHTML = '<object style="width: 100%; height: 400px;" type="text/html" data="plot/'+this.value.toString()+'GDP.html" ></object>'
+}
+</script></div>
 
 In 1970, the countries with highest GDP were **United States**, **Germany**, **Japan**, **France**, **United Kingdom** and **Italy**. Japan overtook Germany in 1971. Around the 90s, Italy and UK have been fighting for 5th place in the ranking. From 1996 to 2006 the UK surpassed France. China entered the top 6 in 1999 in place of Italy and got 2nd in ranking in 2009. In average, **GDP increased** during this period.
 
@@ -39,3 +52,43 @@ The GDP are **highly correlated** from one country to another. Globally, they **
 <!--- <div w3-include-html="plots/map2.html"></div> -->
 
 <!--- <div w3-include-html="plots/map1.html"></div> -->
+
+<style>
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+</style>
