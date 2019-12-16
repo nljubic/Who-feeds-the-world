@@ -18,15 +18,15 @@ There was the **Cold war** from 1945 to 1990 with two **economic superpowers** (
 
 ### Which countries have highest GDP? How did GDP evolved during the last decades?
 
-<div style="float: right; width: 45%; margin: 5% 5% 5% 5%;" w3-include-html="plots/GDPmaps .html"></div>
+<div style="float: right; width: 45%; margin: 5% 5% 5% 5%;" w3-include-html="plots/GDPmaps.html"></div>
 
-In 1970, the countries with highest GDP were **United States**, **Germany**, **Japan**, **France**, **United Kingdom** and **Italy**. Japan overtook Germany in 1971. Around the 90s, Italy and UK have been fighting for 5th place in the ranking. From 1996 to 2006 the UK surpassed France. China entered the top 6 in 1999 in place of Italy and got 2nd in ranking in 2009. In average, GDP increased during this period.
+In 1970, the countries with highest GDP were **United States**, **Germany**, **Japan**, **France**, **United Kingdom** and **Italy**. Japan overtook Germany in 1971. Around the 90s, Italy and UK have been fighting for 5th place in the ranking. From 1996 to 2006 the UK surpassed France. China entered the top 6 in 1999 in place of Italy and got 2nd in ranking in 2009. In average, **GDP increased** during this period.
 
 <div style="clear: right; width: 100%;"></div>
 
 ### What is the structure of international trade ?
 
-The GDP are highly correlated from one country to another. Globally, they almost all increased the same way. This can be explain by the fact that countries have strong enough trading relations to make the GDP evolve the same way. Furthermore, one can identify main regions in which the trading relations are more important.
+The GDP are **highly correlated** from one country to another. Globally, they **almost all increased the same way**. This can be explain by the fact that countries have **strong enough trading relations** to make the GDP evolve the same way. Furthermore, one can identify **main regions** in which the trading relations are more important.
 
 ## Agricultural and economical features <a name="sources"></a>
 
