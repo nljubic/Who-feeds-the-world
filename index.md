@@ -24,7 +24,7 @@
 
 ### Which countries have highest GDP? How did GDP evolved during the last decades?
 
-<div style="float: right; width: 100%; margin: 5% 5% 5% 5%;"> 
+<div style="float: right; width: 100%; margin: 5% 0% 5% 0%;"> 
   <div class="slidecontainer">
     <input type="range" min="1970" max="2015" value="2000" class="slider" id="myRange">
     <span id="map"></span>
@@ -86,7 +86,7 @@
 
 ### What is the structure of international trade ?
 
-<div style="float: left; width: 100%; margin: 5% 5% 5% 5%;" w3-include-html="plots/clusters.html"></div>
+<div style="float: left; width: 100%; margin: 5% 0% 5% 0%;" w3-include-html="plots/clusters.html"></div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The GDP are **highly correlated** from one country to another. Globally, they **almost all increased the same way**. This can be explain by the fact that countries have **strong enough trading relations** to make the GDP evolve the same way. Furthermore, one can identify **main regions** in which the trading relations are more important.
 
