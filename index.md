@@ -78,7 +78,7 @@
 
 ### What is the structure of international trade ?
 
-<div style="float: left; width: 45%; margin: 5% 5% 5% 5%;" w3-include-html="plots/clusters.html"></div>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The GDP are **highly correlated** from one country to another. Globally, they **almost all increased the same way**. This can be explain by the fact that countries have **strong enough trading relations** to make the GDP evolve the same way. Furthermore, one can identify **main regions** in which the trading relations are more important.
 
