@@ -26,9 +26,9 @@ There was the **Cold war** from 1945 to 1990 with two **economic superpowers** (
   <script>
     var slider = document.getElementById("myRange");
     var output = document.getElementById("map");
-    output.innerHTML = '<object style="width: 100%; height: 400px;" type="text/html" data="plot/'+slider.value.toString()+'GDP.html" ></object>';
+    output.innerHTML = '<object style="width: 100%; height: 400px;" type="text/html" data="plots/'+slider.value.toString()+'GDP.html" ></object>';
     slider.oninput = function() {
-      output.innerHTML = '<object style="width: 100%; height: 400px;" type="text/html" data="plot/'+this.value.toString()+'GDP.html" ></object>'
+      output.innerHTML = '<object style="width: 100%; height: 400px;" type="text/html" data="plots/'+this.value.toString()+'GDP.html" ></object>'
     }
   </script>
   <style>
