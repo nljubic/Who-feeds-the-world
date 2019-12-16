@@ -1,5 +1,7 @@
 ## Introduction <a name="preface"></a>
 
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
 ### What are the insights of this data story?
 
 <div style="float: right; width: 45%; margin: 5% 5% 5% 5%;" w3-include-html="plots/wordcloud2.html"></div>
@@ -7,8 +9,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since the Neolithic Revolution, agriculture **feeds the world's population**. Even today, the agricultural sector **employs a large part of humanity** and is a **major point of the economy** of developed and developing countries. In the history of mankind, the **economic growth of countries** has almost always been accompanied by the development of agriculture and the **agricultural economy**, *i.e.* **production, imports and exports**.
 
 <div style="clear: right; width: 100%;"></div>
-<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div>
- 
+
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### Which important events had a significant influence on the agriculture and the economy for the historical period from 1970 to 2015?
 
@@ -17,6 +19,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There was the **Cold war** from 1945 to 1990 with two **economic superpowers** (USA and USSR). The USSR had been dissolved in 1991. The Japanese economic miracle occured from 1945 to 1990 and allowed Japan to come out of the disastrous state in which it was at the exit of the WW2 and become one of the worlds largest economies. There have been 2 big oil crises, in 1973 and 1979. There have been many wars (Middle East wars 1973-2000 e.g. Yom Kippur War 1973, Islamic Revolution in Iran 1979, Iran–Iraq war 1980-1988, Gulf war 1990-1991, Yugoslav wars 1991-2001...). The **third Agricultural Revolution** (also known as Green revolution) occurs form 1960 to 1990 and improved agricultural productions thanks to fertilizers and chemicals.
 
 <div style="clear: left; width: 100%;"></div>
+
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### Which countries have highest GDP? How did GDP evolved during the last decades?
 
@@ -78,6 +82,8 @@
 
 <div style="clear: right; width: 100%;"></div>
 
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
 ### What is the structure of international trade ?
 
 <div style="float: left; width: 45%; margin: 5% 5% 5% 5%;" w3-include-html="plots/clusters.html"></div>
@@ -87,6 +93,8 @@
 <div style="clear: left; width: 100%;"></div>
 
 ## Agricultural and economical features <a name="sources"></a>
+
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### What are the most important features in the sense of the most influence on the Gross Domestic Product ? 
 
@@ -124,16 +132,26 @@ I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; t is an interesting result that is easily 
 
 ## Improve economy with agriculture <a name="results"></a>
 
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
 ### What is green maize?
 
 It’s maize that is mainly harvested so it can be either directly fed to animals or conserved through “silage” and fed to them in winter. Maize is native to central America and thanks to genetic selection & hybridization it can now be grown everywhere in the world. Among the forage foods that are grown for animal feed, they’re very high energy and easy maintenance, since they only need to be harvested once. They also require high fertilizer, herbicide and pesticide levels and 
 
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
 ### Which countries are net exporters of green maize??
 We see that in 1980 no country in the world was a strong net exporter of green maize. Starting from the mid 80s.
 
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
 ### Which countries are net importers of tomatoes?
 
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
 ### Which countries import oats?
+
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### Production analysis
 
@@ -143,26 +161,25 @@ The general trend we observe is that developed countries are bigger producers. T
 
 What can be found surprising is the stability of the producer ranking throughout the years. The top producers 50 years ago are still the top producers nowadays. It is also worth noting that globally, even though the ranking does not change, the sheer production volume follows a growing trend.
 
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
+
 ### evtl Graph production trend 1 developed country 1 other
 
-
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### Self sufficiency score
 
 Unlike the production ranking, the self sufficiency score seems to be pretty instable. It is interesting to note that the countries who were by far top producers do no stand out early on. For instance China does not appear in the highest score until 1990. The most surprising results come from African countries such as South Africa, the United Republic of Tanzania, Nigeria and the Ivory Coast that constantly have a score competing with the richest countries which was unexpected. (**See import/export and production**). Even though the general trend tends to show that richer countries are more independent, there are outliers and the score seems to have a pretty high variance
-
-
-
 -> Comparison with GDP??
+
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 ### Link with exporters??
 
 
-
-Maize green?? shouldnt be in food crops
-
-
 ## Conclusion <a name="conclusion"></a>
+
+<div style=" margin:0 auto; width: 10%;"><img src="plots/tractor.png" alt="-" style="text-align:center;"></div> 
 
 <!--- <div w3-include-html="plots/wordcloud1.html"></div> -->
 
